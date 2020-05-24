@@ -1,0 +1,77 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-size: 0;
+}
+
+.appContainer {
+	margin-top: 15%;
+	text-align: center;
+}
+
+#chatArea, #chatroomsList {
+	height: 100%;
+}
+
+#chatArea {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 80%;
+	background-color: red;
+}	
+
+#LIST {
+	text-align: center;
+	margin-top: 10%;
+	height: 70%;
+	overflow: auto;
+	background-color: green;
+}
+
+.rooms {
+	font-size: 20px;
+	cursor: pointer;
+	text-decoration: underline;
+	color: white;
+}
+
+#chatroomsList {
+	text-align: center;
+	width: 20%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: blue;
+}
+
+#messages {
+	overflow: auto;
+	display: block;
+	height: 80%;
+	width: 100%;
+}
+
+#signUp, #login {
+	color:	blue;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+textarea {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	height: 20%;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+p {
+	font-size: 20px;
+}

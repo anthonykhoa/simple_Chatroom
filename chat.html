@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Noobtastic chatroom</title>
+	<link rel="stylesheet" href="styles.css">
+	<style>
+		
+/*html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-size: 0;
+}
+
+
+#chatArea, #chatroomsList {
+	height: 100%;
+}
+
+#chatArea {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 80%;
+	background-color: red;
+}	
+
+#chatroomsList {	
+	width: 20%;
+	background-color: blue;
+}
+
+#messages {
+	overflow: auto;
+	display: block;
+	height: 80%;
+	width: 100%;
+}
+
+textarea {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	height: 20%;
+}
+
+p {
+	font-size: 20px;
+}*/
+
+	</style>
+</head>
+
+<body>
+	<div id="chatroomsList"></div>
+	<div id="chatArea">
+		<div id="messages">
+			<div>
+				<p style="color: purple; font-size: 20px;">HELLO</p>
+			</div>
+		</div>
+		<textarea id="reply"></textarea>
+	</div>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="client.js"></script>
+	
+</body>
+</html>
